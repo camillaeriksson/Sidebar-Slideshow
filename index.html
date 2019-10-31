@@ -6,16 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Sidebar & Slideshow</title>
-    <script src="script.js"></script>
+    <script src="main.js"></script>
+    <script src="slider.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div class="mySlides">
-        <img class="img_id" src="1.jpg" name="image">
-        <img class="img_id" src="2.jpg" name="image">
-        <img class="img_id" src="3.jpg" name="image">
-        <img class="img_id" src="4.jpg" name="image">
+<body onload="init()">
+    <div class="animated_slider">
+        <img src="1.jpg">
+        <img src="2.jpg" class="hidden">
+        <img src="3.jpg" class="hidden">
+        <img src="4.jpg" class="hidden">
     </div>
 </body>
 
